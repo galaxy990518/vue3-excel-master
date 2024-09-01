@@ -11,13 +11,13 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import FileUpload from '@/components/FileUpload.vue'
-import DataVisualization from '@/components/DataVisualization.vue'
+import { ref } from 'vue';
+import FileUpload from '@/components/FileUpload.vue';
+import DataVisualization from '@/components/DataVisualization.vue';
 
-const processedData = ref(null)
+const processedData = ref(null);
 
 const handleDataProcessed = (data) => {
-  processedData.value = data
-}
+  processedData.value = data;
+};
 </script>
